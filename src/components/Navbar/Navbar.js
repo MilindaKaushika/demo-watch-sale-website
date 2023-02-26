@@ -23,7 +23,7 @@ window.addEventListener('scroll',addBg)
             <a href='/#' className="logo">W<span>A</span>TCHES</a>
             <ul className={click ? "navbar active" : "navbar"}>
                 <li onClick={handleClick}><a href='/#'>Home</a></li>
-                <li onClick={handleClick}><a href='/#'>About</a></li>
+                <li onClick={handleClick}><a href='react-demo-watch-website/#'>About</a></li>
                 <li onClick={handleClick}><a href='/#shop'>Shop</a></li>
                 <li onClick={handleClick}><a href='/#services'>Services</a></li>
                 <li onClick={handleClick}><a href='/#contacts'>Contacts</a></li>
