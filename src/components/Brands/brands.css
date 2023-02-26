@@ -1,0 +1,19 @@
+.brands{
+    height: auto;
+    padding: 25px 10%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    transition: .35s ease; 
+}
+.brands-logs img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.brands-logs img:hover{
+    filter: grayscale(0);
+}

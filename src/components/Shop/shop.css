@@ -1,0 +1,115 @@
+ .new-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.row-one{
+    position: relative;
+    cursor: pointer;
+}
+
+.row-one img{
+width: 100%;
+height: auto;
+margin-bottom: 15px;
+display: block;
+transition: transform 0.5s;
+}
+
+.row-one h4{
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: all .45s ease;
+}
+
+ .row-one h4:hover{
+ color: var(--main-color);
+}
+.row-one h5{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.top{
+    position: absolute;
+    top:20px;
+    left: 0;
+    height: 30px;
+    width: 60px;
+    color: #ffffff;
+    background: var(--main-color);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart{
+    position: absolute;
+    top:20px;
+    display: inline-flex;
+    right: 20px;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    color: var(--main-color);
+    transition: all .45s ease;
+}
+.heart .heart-size{
+    height: 25px;
+    width: 25px;
+}
+.heart .heart-size:hover{
+color: white;
+background:  var(--main-color);
+
+}
+.row-one .btn a{
+position: absolute;
+bottom: 67px;
+left:0;
+right: 0;
+padding: 13px;
+background: var(--main-color);
+color: white;
+transition: opacity 0.5s; 
+opacity: 0;
+}
+
+.row-one:hover .btn a{
+    opacity: 1;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.btns{
+    display: inline-block;
+    margin-right: 15px; 
+    background: transparent;    
+    border: 1px solid #cf820d;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 7px 25px;
+    cursor: pointer;
+}
+.btns:hover{
+    background: var(--main-color);
+    color: #ffffff;  
+}
+.active_btns{
+    background: var(--main-color);
+    color: #ffffff;
+}

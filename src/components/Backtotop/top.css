@@ -1,0 +1,30 @@
+.top-scroll{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.top-scroll .btn-design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    font-size: 22px;
+    margin-right: 10px;
+    padding: 10px;
+    background: #cb9400;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all .45s ease;
+    animation: gototop 1.2s linear infinite alternate-reverse;
+}
+@keyframes gototop{
+    0%{
+        transform: translateY(-0.5rem);
+    }
+    100%{
+        transform: translateY(1rem);
+    }
+}

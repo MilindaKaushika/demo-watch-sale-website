@@ -1,0 +1,80 @@
+.contact{
+    background: #eaeaea;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+}
+.contact-contain h4{
+    font-size:20px;
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
+    color: #404040;
+}
+.contact-contain h5{
+    font-size:18px;
+    font-weight: 700;
+    color: #404040;
+}
+.contact-contain li a{
+    display: block;
+    font-size:15px;
+   font-weight: 500;
+   color: #404040;
+   transition: all .45s ease;
+}
+.contact-contain li{
+    margin-bottom: 16px;
+}
+.contact-contain li a:hover{
+    transform: translateX(-8px);
+    color: #cb9400;
+}
+.icons{
+    display: flex;
+    margin-top: 1rem;
+}
+.icons .sizes{
+    font-size: 30px;
+    margin-right: 1rem;
+    color: #33333359;
+    transition: all .45s ease;
+}
+.icons .sizes:hover{
+    color: var(--main-color);
+    transform: scale(1.1) translateY(-5px);
+}
+.last-text{
+    text-align: center;
+    padding: 20px;
+    background: var(--text-color);
+}
+.last-text p{
+    color: #404040;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.details .icon-size{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #6e6e6e;
+}
+.details h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #6e6e6e;
+}
+.last-text{
+    text-align: center;
+    padding: 20px;
+    background: #04080f;
+}
+.last-text p{
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
