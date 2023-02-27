@@ -47,7 +47,6 @@ const Navbar = () => {
         <header className={transparent}>
             <a href='/#' className="logo">W<span>A</span>TCHES</a>
             <ul className={click ? "navbar active" : "navbar"}>
-<<<<<<< HEAD
                 {
                     newlink.map((item)=> {
                        
@@ -64,14 +63,6 @@ const Navbar = () => {
                 )}
 
 
-=======
-                <li onClick={handleClick}><a href='/#'>Home</a></li>
-                <li onClick={handleClick}><a href='/react-demo-watch-website/#'>About</a></li>
-                <li onClick={handleClick}><a href='/#shop'>Shop</a></li>
-                <li onClick={handleClick}><a href='/#services'>Services</a></li>
-                <li onClick={handleClick}><a href='/#contacts'>Contacts</a></li>
-         
->>>>>>> d50633e86df1fc84287df3de4aefa7b6da4e4bb2
             </ul>
             <div className="nav-list">
                 <div className="btn">Register now</div>
