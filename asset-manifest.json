@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-demo-watch-website/static/css/main.c56a47e6.css",
+    "main.js": "/react-demo-watch-website/static/js/main.b4007fc3.js",
+    "static/media/item-1.png": "/react-demo-watch-website/static/media/item-1.93c47000114f01281a8a.png",
+    "static/media/choce_watch1.png": "/react-demo-watch-website/static/media/choce_watch1.f5cd55479ecd2e2636ee.png",
+    "static/media/popular3.png": "/react-demo-watch-website/static/media/popular3.f1fb1364fce1e4b04882.png",
+    "static/media/popular4.png": "/react-demo-watch-website/static/media/popular4.9fc39f928b48223b3689.png",
+    "static/media/popular2.png": "/react-demo-watch-website/static/media/popular2.61d4e4df2bba2f9b525b.png",
+    "static/media/action-right.png": "/react-demo-watch-website/static/media/action-right.a4c222bd8e163d4d7d4e.png",
+    "static/media/bg-img.jpg": "/react-demo-watch-website/static/media/bg-img.a6357ae5c43830e6f928.jpg",
+    "static/media/action-left.png": "/react-demo-watch-website/static/media/action-left.a330d040a47a0b2d0a00.png",
+    "static/media/popular1.png": "/react-demo-watch-website/static/media/popular1.3949c3b4766951569732.png",
+    "index.html": "/react-demo-watch-website/index.html",
+    "main.c56a47e6.css.map": "/react-demo-watch-website/static/css/main.c56a47e6.css.map",
+    "main.b4007fc3.js.map": "/react-demo-watch-website/static/js/main.b4007fc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c56a47e6.css",
+    "static/js/main.b4007fc3.js"
+  ]
+}
