@@ -89,7 +89,7 @@ export const Footer = () => {
                 </div>
             </section>
             <div class="last-text">
-                <p>© 2022 Wtches. All Right Reserved by Milinda Kaushika </p>
+                <p>© 2022 Watches. All Right Reserved by Milinda Kaushika </p>
             </div>
         </>
     )
